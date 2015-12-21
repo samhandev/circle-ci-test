@@ -1,0 +1,10 @@
+machine:
+  java:
+    version: oraclejdk8
+  environment:
+    DB_USER: ubuntu
+    DB_PASS:
+    DB_NAME: circle_test
+
+  test:
+    mvn test
