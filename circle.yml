@@ -8,3 +8,4 @@ machine:
 
 dependencies:
   override:
+    - mvn dependency:resolve
